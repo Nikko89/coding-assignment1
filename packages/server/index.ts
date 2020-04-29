@@ -1,4 +1,4 @@
-import * as fs from "fs";
+import fs from "fs";
 import { ApolloServer, gql } from "apollo-server";
 
 import { resolvers } from "./resolvers";
@@ -9,8 +9,10 @@ const typeDefs = gql(schema);
 
 const server = new ApolloServer({
   typeDefs,
-  resolvers
+  resolvers,
 });
+
+console.log(server);
 
 server.listen().then(({ url }) => {
   console.log(`🚀 Server ready at ${url}`);

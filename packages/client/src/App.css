@@ -1,0 +1,126 @@
+@import "~antd/dist/antd.css";
+
+.App {
+  text-align: center;
+  background-image: url("./images/pokeballWallpaper.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.Page {
+  height: 100%;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* extra style for antd where code not working right */
+
+.ant-list-items {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  margin: 5px 25px;
+}
+
+.ant-card {
+  margin: 2% 2%;
+  width: 20%;
+}
+
+@media screen and (max-width: 968px) {
+  .ant-card {
+    width: 40%;
+  }
+  .ant-list-items {
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 1146px) {
+  .ant-form-item {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+}
+.ant-card-body {
+  padding: 10px;
+}
+
+.ant-page-header {
+  filter: grayscale(100%);
+}
+
+.noPokemons {
+  margin: 10% 25%;
+  padding: 20px 25px;
+  background-color: rgba(255, 255, 255, 0.9);
+  color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+}
+
+.ant-list-pagination {
+  display: flex;
+  justify-content: center;
+}
+
+div.ant-row.ant-form-item.greenInput > div.ant-col.ant-form-item-label > label {
+  color: green;
+}
+
+.Landing {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vmin;
+}
+
+.Poke-image {
+  filter: hue-rotate();
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 10px;
+  height: 100px;
+}
+
+.Poke-image img {
+  justify-content: center;
+  height: 100%;
+  width: auto;
+}
