@@ -1,8 +1,6 @@
 import React, { useState } from "react";
 import Options from "../presentational/OptionsForm";
 import { PageHeader } from "antd";
-import { useQuery } from "@apollo/react-hooks";
-import gql from "graphql-tag";
 import PokemonList from "../presentational/PokemonList";
 
 export default () => {

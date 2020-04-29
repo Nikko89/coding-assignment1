@@ -19,6 +19,7 @@ export default (props: {
       {props.image ? (
         <div className="Poke-image">
           <img
+            alt={`pokemon image id ${cleanId}`}
             src={`https://pokeres.bastionbot.org/images/pokemon/${cleanId}.png`}
           />
         </div>
