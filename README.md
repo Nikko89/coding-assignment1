@@ -11,3 +11,15 @@ I feel it has more to do with the current react architecture than the updateQuer
 I added optional imagery linking to an external https API. It won't load automatically, it has to be enabled.
 
 Thanks a lot for submitting the challenge to me.
+
+# How to start
+
+`code` npm install
+
+both client and server folder. Start the server
+
+`code` @frontend-assignment/server start
+
+then start the client.
+
+`code` @frontend-assignment/client start
