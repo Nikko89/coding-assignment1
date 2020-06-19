@@ -14,12 +14,19 @@ Thanks a lot for submitting the challenge to me.
 
 # How to start
 
-`code` npm install
+`npm install`
 
-both client and server folder. Start the server
+both client and server folder. From the server folder:
 
-`code` @frontend-assignment/server start
+`npm start`
 
-then start the client.
+then from another terminal tab, cd into client and start it too:
 
-`code` @frontend-assignment/client start
+`npm start`
+
+You should be able to see the project on port 3000 of localhost.
+
+# Screenshots
+
+![1](https://imgur.com/vBlspD1)
+
