@@ -28,5 +28,5 @@ You should be able to see the project on port 3000 of localhost.
 
 # Screenshots
 
-![1](https://imgur.com/vBlspD1)
+![1](https://i.imgur.com/vBlspD1.png)
 
